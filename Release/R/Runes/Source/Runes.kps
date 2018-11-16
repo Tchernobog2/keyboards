@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>10.0.1205.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile>Readme.txt</ReadMeFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Version URL="">1.0</Version>
+    <Name URL="">Runes</Name>
+    <Copyright URL=""></Copyright>
+  </Info>
+  <Files>
+    <File>
+      <Name>..\Documents\Runes.kmx</Name>
+      <Description>Keyboard Runes</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>Readme.txt</Name>
+      <Description>File Readme.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>Runes.kmn-Source.txt</Name>
+      <Description>File Runes.kmn-Source.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>F:\noto-fonts-master\unhinted\NotoSansRunic-Regular.ttf</Name>
+      <Description>Font Noto Sans Runic Regular</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Runes</Name>
+      <ID>runes</ID>
+      <Version>1.0</Version>
+      <OSKFont>F:\noto-fonts-master\unhinted\NotoSansRunic-Regular.ttf</OSKFont>
+      <DisplayFont>F:\noto-fonts-master\unhinted\NotoSansRunic-Regular.ttf</DisplayFont>
+      <Languages/>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>

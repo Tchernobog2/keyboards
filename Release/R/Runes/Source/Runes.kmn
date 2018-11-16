@@ -1,0 +1,252 @@
+﻿store(&NAME) 'Runes'
+store(&MESSAGE) 'Complex Runic Keyboard.'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'windows macosx linux desktop'
+store(&COPYRIGHT) '© 2018 Nicholas Gray'
+begin Unicode > use(main)
+
+group(main) using keys
+
++ [K_A] > deadkey(A)
+deadkey(A) + [K_1] > 'ᚨ'
+deadkey(A) + [K_2] > 'ᚪ'
+
+deadkey(A) + [K_E] > deadkey(AE)
+deadkey(AE) + [K_1] > 'ᚫ'
+deadkey(AE) + [K_2] > 'ᛅ'
+deadkey(AE) + [K_3] > 'ᛆ'
+
++ [K_B] > deadkey(B)
+deadkey(B) + [K_1] > 'ᛒ'
+deadkey(B) + [K_2] > 'ᛓ'
+
++ [K_C] > deadkey(C)
+deadkey(C) + [K_1] > 'ᚳ'
+deadkey(C) + [K_2] > 'ᛍ'
+
++ [K_D] > 'ᛞ'
+
++ [K_E] > deadkey(E)
+deadkey(E) + [K_1] > 'ᛖ'
+deadkey(E) + [K_A] > 'ᛠ'
+deadkey(E) + [K_O] > 'ᛇ'
+
++ [K_F] > 'ᚠ'
+
++ [K_G] > deadkey(G)
+deadkey(G) + [K_1] > 'ᚷ'
+deadkey(G) + [K_2] > 'ᚸ'
+deadkey(G) + [K_3] > 'ᚴ'
+
++ [K_H] > deadkey(H)
+deadkey(H) + [K_1] > 'ᚺ'
+deadkey(H) + [K_2] > 'ᚻ'
+deadkey(H) + [K_3] > 'ᚼ'
+deadkey(H) + [K_4] > 'ᚽ'
+
++ [K_I] > deadkey(I)
+deadkey(I) + [K_1] > 'ᛁ'
+deadkey(I) + [K_2] > 'ᛇ'
+
++ [K_J] > deadkey(J)
+deadkey(J) + [K_1] > 'ᛃ'
+deadkey(J) + [K_2] > 'ᛄ'
+
++ [K_K] > deadkey(K)
+deadkey(K) + [K_1] > 'ᚲ'
+deadkey(K) + [K_2] > 'ᚳ'
+deadkey(K) + [K_3] > 'ᚴ'
+
++ [K_L] > 'ᛚ'
+
++ [K_M] > deadkey(M)
+deadkey(M) + [K_1] > 'ᛗ'
+deadkey(M) + [K_2] > 'ᛘ'
+deadkey(M) + [K_3] > 'ᛙ'
+
++ [K_N] > deadkey(N)
+deadkey(N) + [K_1] > 'ᚾ'
+deadkey(N) + [K_2] > 'ᚿ'
+
+deadkey(N) + [K_G] > deadkey(NG)
+deadkey(NG) + [K_1] > 'ᛜ'
+deadkey(NG) + [K_2] > 'ᛝ'
+
++ [K_O] > deadkey(O)
+deadkey(O) + [K_1] > 'ᚩ'
+deadkey(O) + [K_2] > 'ᚬ'
+deadkey(O) + [K_3] > 'ᚭ'
+deadkey(O) + [K_4] > 'ᚮ'
+deadkey(O) + [K_5] > 'ᛟ'
+deadkey(O) + [K_E] > 'ᚯ'
+
++ [K_P] > deadkey(P)
+deadkey(P) + [K_1] > 'ᛈ'
+deadkey(P) + [K_2] > 'ᛔ'
+deadkey(P) + [K_3] > 'ᛕ'
+
++ [K_Q] > 'ᛩ'
+
++ [K_R] > 'ᚱ'
+
++ [K_S] > deadkey(S)
+deadkey(S) + [K_1] > 'ᛊ'
+deadkey(S) + [K_2] > 'ᛋ'
+deadkey(S) + [K_3] > 'ᛌ'
+
++ [K_T] > deadkey(T)
+deadkey(T) + [K_1] > 'ᛏ'
+deadkey(T) + [K_2] > 'ᛐ'
+
+deadkey(T) + [K_H] > deadkey(TH)
+deadkey(TH) + [K_1] > 'ᚦ'
+deadkey(TH) + [K_2] > 'ᚧ'
+
++ [K_U] > 'ᚢ'
+
++ [K_V] > 'ᚡ'
+
++ [K_W] > deadkey(W)
+deadkey(W) + [K_1] > 'ᚹ'
+deadkey(W) + [K_2] > 'ᚥ'
+
++ [K_X] > 'ᛪ'
+
++ [K_Y] > deadkey(Y)
+deadkey(Y) + [K_1] > 'ᚤ'
+
+deadkey(Y) + [K_R] > deadkey(YR)
+deadkey(YR) + [K_1] > 'ᚣ'
+deadkey(YR) + [K_2] > 'ᛦ'
+deadkey(YR) + [K_3] > 'ᛧ'
+deadkey(YR) + [K_4] > 'ᛨ'
+
++ [K_Z] > deadkey(Z)
+deadkey(Z) + [K_1] > 'ᛉ'
+deadkey(Z) + [K_2] > 'ᛎ'
+
++ [SHIFT K_A] > deadkey(A)
+deadkey(A) + [K_1] > 'ᚨ'
+deadkey(A) + [K_2] > 'ᚪ'
+
+deadkey(A) + [SHIFT K_E] > deadkey(AE)
+deadkey(AE) + [K_1] > 'ᚫ'
+deadkey(AE) + [K_2] > 'ᛅ'
+deadkey(AE) + [K_3] > 'ᛆ'
+
++ [SHIFT K_B] > deadkey(B)
+deadkey(B) + [K_1] > 'ᛒ'
+deadkey(B) + [K_2] > 'ᛓ'
+
++ [SHIFT K_C] > deadkey(C)
+deadkey(C) + [K_1] > 'ᚳ'
+deadkey(C) + [K_2] > 'ᛍ'
+
++ [SHIFT K_D] > 'ᛞ'
+
++ [SHIFT K_E] > deadkey(E)
+deadkey(E) + [K_1] > 'ᛖ'
+deadkey(E) + [K_A] > 'ᛠ'
+deadkey(E) + [SHIFT K_O] > 'ᛇ'
+
++ [SHIFT K_F] > 'ᚠ'
+
++ [SHIFT K_G] > deadkey(G)
+deadkey(G) + [K_1] > 'ᚷ'
+deadkey(G) + [K_2] > 'ᚸ'
+deadkey(G) + [K_3] > 'ᚴ'
+
++ [SHIFT K_H] > deadkey(H)
+deadkey(H) + [K_1] > 'ᚺ'
+deadkey(H) + [K_2] > 'ᚻ'
+deadkey(H) + [K_3] > 'ᚼ'
+deadkey(H) + [K_4] > 'ᚽ'
+
++ [SHIFT K_I] > deadkey(I)
+deadkey(I) + [K_1] > 'ᛁ'
+deadkey(I) + [K_2] > 'ᛇ'
+
++ [SHIFT K_J] > deadkey(J)
+deadkey(J) + [K_1] > 'ᛃ'
+deadkey(J) + [K_2] > 'ᛄ'
+
++ [SHIFT K_K] > deadkey(K)
+deadkey(K) + [K_1] > 'ᚲ'
+deadkey(K) + [K_2] > 'ᚳ'
+deadkey(K) + [K_3] > 'ᚴ'
+deadkey(K) + [K_4] > 'ᛣ'
+deadkey(K) + [K_K] > 'ᛤ'
+
++ [SHIFT K_L] > 'ᛚ'
+
++ [SHIFT K_M] > deadkey(M)
+deadkey(M) + [K_1] > 'ᛗ'
+deadkey(M) + [K_2] > 'ᛘ'
+deadkey(M) + [K_3] > 'ᛙ'
+
++ [SHIFT K_N] > deadkey(N)
+deadkey(N) + [K_1] > 'ᚾ'
+deadkey(N) + [K_2] > 'ᚿ'
+
+deadkey(N) + [SHIFT K_G] > deadkey(NG)
+deadkey(NG) + [K_1] > 'ᛜ'
+deadkey(NG) + [K_2] > 'ᛝ'
+
++ [SHIFT K_O] > deadkey(O)
+deadkey(O) + [K_1] > 'ᚩ'
+deadkey(O) + [K_2] > 'ᚬ'
+deadkey(O) + [K_3] > 'ᚭ'
+deadkey(O) + [K_4] > 'ᚮ'
+deadkey(O) + [K_5] > 'ᛟ'
+deadkey(O) + [SHIFT K_E] > 'ᚯ'
+
++ [SHIFT K_P] > deadkey(P)
+deadkey(P) + [K_1] > 'ᛈ'
+deadkey(P) + [K_2] > 'ᛔ'
+deadkey(P) + [K_3] > 'ᛕ'
+
++ [SHIFT K_Q] > 'ᛩ'
+
++ [SHIFT K_R] > 'ᚱ'
+
++ [SHIFT K_S] > deadkey(S)
+deadkey(S) + [K_1] > 'ᛊ'
+deadkey(S) + [K_2] > 'ᛋ'
+deadkey(S) + [K_3] > 'ᛌ'
+
++ [SHIFT K_T] > deadkey(T)
+deadkey(T) + [K_1] > 'ᛏ'
+deadkey(T) + [K_2] > 'ᛐ'
+
+deadkey(T) + [SHIFT K_H] > deadkey(TH)
+deadkey(TH) + [K_1] > 'ᚦ'
+deadkey(TH) + [K_2] > 'ᚧ'
+
++ [SHIFT K_U] > 'ᚢ'
+
++ [SHIFT K_V] > 'ᚡ'
+
++ [SHIFT K_W] > deadkey(W)
+deadkey(W) + [K_1] > 'ᚹ'
+deadkey(W) + [K_2] > 'ᚥ'
+
++ [SHIFT K_X] > 'ᛪ'
+
++ [SHIFT K_Y] > deadkey(Y)
+deadkey(Y) + [K_1] > 'ᚤ'
+
+deadkey(Y) + [SHIFT K_R] > deadkey(YR)
+deadkey(YR) + [K_1] > 'ᚣ'
+deadkey(YR) + [K_2] > 'ᛦ'
+deadkey(YR) + [K_3] > 'ᛧ'
+deadkey(YR) + [K_4] > 'ᛨ'
+
++ [SHIFT K_Z] > deadkey(Z)
+deadkey(Z) + [K_1] > 'ᛉ'
+deadkey(Z) + [K_2] > 'ᛎ'
+
++ [K_SPACE] > '᛬'
+
++ [K_PERIOD] > deadkey(PERIOD)
+deadkey(PERIOD) + [K_1] > '᛫'
+deadkey(PERIOD) + [K_2] > '᛭'
